@@ -2,7 +2,7 @@
 
 Skate-style physics and rider motion inside **The Chronicles of Myrtana: Archolos**, using an x86 Union bridge and a separate x64 Rust physics worker. The repository also preserves the existing verified Free Aim setup.
 
-The current checkpoint includes the user-confirmed rider presentation, real object-mesh collision, braking, rolling collision capture, and the fix for dismounting at the first 7-metre refresh. That fix pauses the simulation clock during our capture/reload work and reduces capture overhead; it is installed and passes offline regression checks, with its latest in-game verification pending. Camera changes have not started.
+The current checkpoint includes the user-confirmed rider presentation, real object-mesh collision, braking, rolling collision capture, and the fix for dismounting at the first 7-metre refresh. That fix pauses the simulation clock during our capture/reload work and reduces capture overhead; it passes offline regression checks, is installed, and the user confirmed it works in game. A separate experimental [modern exploration controller](skate3/docs/MODERN_CONTROLS.md) adds mouse orbit and camera-relative WASD, with F6 returning to Gothic's original controls; see the journal for its verification limits.
 
 Start with the [skating documentation](skate3/README.md), [engine findings](skate3/docs/ENGINE_NOTES.md) and [verification journal](skate3/MODLOG.md).
 

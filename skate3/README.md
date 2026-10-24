@@ -1,6 +1,6 @@
 # Archolos skating integration
 
-Status: experimental. Single-press F8 mounting, sustained movement, braking and rolling collision recapture have run in Archolos. The latest rider and object-collision improvements pass offline checks and still need a gameplay test. See [MODLOG.md](MODLOG.md) for the evidence of each installed revision.
+Status: experimental. Single-press F8 mounting, sustained movement, braking and rolling collision recapture have run in Archolos. The user confirmed the rider appearance and the installed 7-metre recapture fix work in game. Separate collision, restoration and fallback scenarios remain unverified as recorded in [MODLOG.md](MODLOG.md). The user also confirmed the new [modern exploration controls](docs/MODERN_CONTROLS.md) feel good. A follow-up retaining the orbit camera during melee is installed; live combat verification is pending.
 
 The requested target is Skate-style board physics and tricks in the existing Archolos world. The user selected the existing Rust skating engine after reviewing the difference from the original Skate3Recomp simulation.
 
