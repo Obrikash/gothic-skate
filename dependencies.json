@@ -1,0 +1,58 @@
+{
+  "unionVersion": "1.0m",
+  "unionRepositoryCommit": "d61fd89478de5817225d08675a7cdc478a445896",
+  "unionArchiveGitBlob": "1a04dfebbca8395ee434f23154d6f243591e9e08",
+  "workshopItem": "3749987428",
+  "workshopManifest": "8655955822285345073",
+  "sourceCommit": "a372c912684f26d1db111d0324276c10e049d76a",
+  "files": [
+    {
+      "source": "union/System/msvcp100.dll",
+      "target": "system/msvcp100.dll",
+      "sha256": "A3BA6421991241BEA9C8334B62C3088F8F131AB906C3CC52113945D05016A35F",
+      "size": 421200
+    },
+    {
+      "source": "union/System/msvcr100.dll",
+      "target": "system/msvcr100.dll",
+      "sha256": "1221A09484964A6F38AF5E34EE292B9AFEFCCB3DC6E55435FD3AAF7C235D9067",
+      "size": 770384
+    },
+    {
+      "source": "union/System/Shw32.dll",
+      "target": "system/Shw32.dll",
+      "sha256": "78D9312F07EBDF978D301FDE63841DDCBE265B59CB7C2753E01D2DBDC5742888",
+      "size": 4396032
+    },
+    {
+      "source": "union/System/stdhost.exe",
+      "target": "system/stdhost.exe",
+      "sha256": "C5632644B2D365F6FAA9F21C564E1141B4EE7A1F11DE2666B976BF3E5EFB8DA3",
+      "size": 72704
+    },
+    {
+      "source": "union/System/Union.patch",
+      "target": "system/Union.patch",
+      "sha256": "77BAAABC57FC57CBE161BBA609AE80311B58B5AC7E126DDEF1DCF40EA934B45B",
+      "size": 251001
+    },
+    {
+      "source": "union/System/Vdfs32g.dll",
+      "target": "system/Vdfs32g.dll",
+      "sha256": "6E5D544BA5139725A42729CBE6C243A41B5460310806C371B03AAC79657DC607",
+      "size": 349696
+    },
+    {
+      "source": "union/Data/Union.vdf",
+      "target": "Data/Union.vdf",
+      "sha256": "B5E29DC8B7B7E38EC446DACE3A4DFD15B203DFA7D134508D6286B03472CFF19A",
+      "size": 2037609
+    },
+    {
+      "source": "plugin/UnionFreeAim.vdf",
+      "target": "Data/Plugins/UnionFreeAim.vdf",
+      "sha256": "AD4DA763225D00BAB2C72AB2E41C02A4287B62C417AF64861AF537F69F84163A",
+      "size": 4501870
+    }
+  ]
+}
