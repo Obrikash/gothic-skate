@@ -1,0 +1,32 @@
+{
+  "engineChoice": "SK8-ENGINE Rust recreation through the pinned BullySkate worker",
+  "worker": {
+    "repository": "https://github.com/Faiqie/BullySkate",
+    "tag": "v0.1.2",
+    "commit": "6b705e968e5cb07ab8dddd6585a0547218485511",
+    "archiveSha256": "a7158ee985704ec9c306a4da1b9d314e718bae14b7168fa0f64bb6d76038eeb3",
+    "binarySha256": "fc8607ae56ee13742aaeb856bbd77ce29130380507725f223d6523b70d07620b",
+    "sharedMemoryBytes": 6184
+  },
+  "compiler": {
+    "name": "Zig",
+    "version": "0.17.0",
+    "url": "https://ziglang.org/download/0.17.0/zig-x86_64-windows-0.17.0.zip",
+    "sha256": "b5663f69581dcf391293fbf16c06cb80d81d806545ce618b4d0bab7f0eb8c428"
+  },
+  "minhook": {
+    "repository": "https://github.com/TsudaKageyu/minhook",
+    "tag": "v1.3.4",
+    "archiveSha256": "172708123daa0c98d20d3a980b16a50be14af243dc95dee6f79c24193ad010e4"
+  },
+  "gothicApi": {
+    "repository": "https://gitlab.com/union-framework/gothic-api",
+    "commit": "6e554b0acb199c9544037fb7136e07fad44a2fc4",
+    "archiveSha256": "36ee8d948370b963b1d5e8e642dfe90f5771f6942b5d43fa9c026e91c6a086aa"
+  },
+  "installedDataSource": {
+    "repository": "https://github.com/mchughalex/skate3recomp",
+    "tag": "v2.0.2",
+    "commit": "f6e0ae87fdfecbadb5c1e36c55d66a744187a3cd"
+  }
+}
